@@ -3,7 +3,6 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
-#pragma comment(lib,"libmysql.lib")
 
 MYSQL_RES *res;
 MYSQL_ROW row;
