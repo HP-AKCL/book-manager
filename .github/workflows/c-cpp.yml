@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: apt install libmysqlclient-dev
+      run: apt-get install libmysqlclient-dev
     - name: cmake
       run: cmake .
     - name: make
